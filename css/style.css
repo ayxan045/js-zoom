@@ -1,0 +1,21 @@
+.zoomImage {
+  background-image: url(../img/https___specials-images.forbesimg.com_imageserve_5e6e26d9aa5428000759e96c_women-washing-purple-water-lilies-in-Vietnam_960x0.jpg_cropX1=0&cropX2=960&cropY1=112&cropY2=954);
+  background-position: 50% 50%;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.zoomImage:hover img {
+  opacity: 0;
+}
+
+.zoomImage img {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
